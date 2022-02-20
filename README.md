@@ -22,11 +22,18 @@ Just run the following command in the project root
 sudo composer require php-amqplib/php-amqplib
 ```
 
-## Test
+## Tests
 
-Now we can run both scripts. In a terminal, run the consumer / receiver (receive.php) then, run the publisher/sender (send.php) in another terminal instance.
+Now we can run both scripts. In a terminal, run the consumer / receiver [receive.php](/receive.php) then, run the publisher/sender [send.php](/send.php) in another terminal instance.
 
+How to check the operations left to process in the rabbitmq queue
 
 ```
 sudo rabbitmqctl list_queues
 ```
+
+## Additional Information
+
+How RabbitMQ works and basic php examples: https://www.rabbitmq.com/tutorials/tutorial-one-php.html
+
+How to install RabbitMQ on Ubuntu through packagecloud: https://www.rabbitmq.com/install-debian.html#apt-packagecloud
