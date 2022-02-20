@@ -36,4 +36,4 @@ sudo rabbitmqctl list_queues
 
 How RabbitMQ works and basic php examples: https://www.rabbitmq.com/tutorials/tutorial-one-php.html
 
-How to install RabbitMQ on Ubuntu through packagecloud: https://www.rabbitmq.com/install-debian.html#apt-packagecloud
+How to install RabbitMQ on Ubuntu through PackageCloud: https://www.rabbitmq.com/install-debian.html#apt-packagecloud
