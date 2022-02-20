@@ -1,5 +1,6 @@
 #!/usr/bin/sh
 
+#This script requires user input and it's based on the  article below
 #https://www.rabbitmq.com/install-debian.html#apt-packagecloud
 
 sudo apt-get install curl gnupg apt-transport-https -y
@@ -41,4 +42,4 @@ sudo apt-get install -y erlang-base \
 ## Install rabbitmq-server and its dependencies
 sudo apt-get install rabbitmq-server -y --fix-missing
 
-# sudo systemctl status  rabbitmq-server.service
+#run "sudo systemctl status  rabbitmq-server.service" to check if rabbitmq is active
