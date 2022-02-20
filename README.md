@@ -1,4 +1,4 @@
-# How to install RabbitMQ and test with PHP
+# How to install RabbitMQ and use it with PHP
 
 ## Official Repositorys
 Take a look at the official RabbitMQ repositorys:
